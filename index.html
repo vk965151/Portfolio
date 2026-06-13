@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Port<span class="portfolio">folio</span></div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+
+      <section class="design">
+        <div class="left-intro">
+          Hi, My name is <span class="purple">Vishal</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span> <br>
+
+          <div class="git">
+      
+          <button id="github-btn"><i class="fab fa-github"></i> <a href="https://github.com/vk965151"target ="main">GitHub</a></button>
+          <button id="resume-btn"><i class="fa-solid fa-file"></i> Resume</button>
+        </div>
+        </div>
+  
+
+        <div class="right-image"><button class="hii">click Me</button></div>
+      </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Software Engineer", "Web Developer", "IT Student"],
+        typeSpeed: 50,
+      });
+      
+    </script>
+    
+
+    <!-- ------------------------about------------------------ -->
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1"></div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I am a passionate BCA student with a strong interest in
+              technology, programming, and problem solving. Currently, I am
+              focused on improving my skills in full-stack web development, Data
+              Structures & Algorithms, C/C++, Python, and data analytics. I
+              enjoy learning new technologies and building practical projects
+              that help me grow as a developer. Along with technical skills.
+            </p>
+        <div class="tab-title">
+              <p class="tab-links">Skills</p>
+              
+            </div>
+          
+          <!-- ---------------------------skills--------------------------- -->
+          <div class="tab-contents active-tab" id="Skills">
+            <div class="container">
+              <div class="skills">
+                <div class="card">
+                  <i class="fa-brands fa-html5"></i>
+                  <p>HTML</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-brands fa-css3-alt"></i>
+                  <p>CSS</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-brands fa-js"></i>
+                  <p>JavaScript</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-solid fa-c"></i>
+                  <p>C</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-solid fa-code"></i>
+                  <p>C++</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-solid fa-database"></i>
+                  <p>SQL</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-brands fa-git-alt"></i>
+                  <p>Git</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-brands fa-github"></i>
+                  <p>Github</p>
+                </div>
+
+                <div class="card">
+                  <i class="fa-brands fa-python"></i>
+                  <p>Python</p>
+
+                  
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------------Projects---------------------------------- -->
+    
+    <script src="script.js"></script>
+  </body>
+</html>
