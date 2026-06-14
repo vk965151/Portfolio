@@ -14,17 +14,16 @@ body {
   color: white;
   overflow-x: hidden;
   width: 100%;
-
 }
-
 
 .git {
   margin-top: 30px;
   display: flex;
   gap: 30px;
 }
-#github-btn, #resume-btn {
- background : transparent;
+#github-btn,
+#resume-btn {
+  background: transparent;
   color: white;
   padding: 10px 20px;
   font-size: 16px;
@@ -32,7 +31,6 @@ body {
   border-radius: 8px;
   border: 2px solid #ff004f;
   transition: 0.3s;
-  
 }
 
 #github-btn a {
@@ -40,9 +38,9 @@ body {
   text-decoration: none;
 }
 
-#github-btn:hover, #resume-btn:hover {
+#github-btn:hover,
+#resume-btn:hover {
   background: #ff004f;
-
 }
 
 nav {
@@ -89,8 +87,7 @@ nav ul li a:hover::after {
   justify-content: space-around;
   margin: 23px;
   height: 100vh;
-  
-} 
+}
 
 .purple {
   color: rgb(152, 16, 231);
@@ -109,8 +106,6 @@ nav ul li a:hover::after {
   justify-content: center;
   font-size: 2rem;
   font-weight: 500;
-  
- 
 }
 
 .right-image {
@@ -127,24 +122,20 @@ nav ul li a:hover::after {
   color: rgb(152, 16, 231);
 }
 
-
-
 /* -----------------------------------------about------------------------  */
 
-.about{
+.about {
   display: flex;
   height: 100vh;
   justify-content: space-evenly;
-  display: flex;
   flex-wrap: wrap;
 }
 
-#font-color{
+#font-color {
   color: #ababab;
 }
 
-
-.about-intro{
+.about-intro {
   font-size: 40px;
   font-weight: 600;
   color: #fff;
@@ -152,30 +143,25 @@ nav ul li a:hover::after {
   padding-top: 20px;
 }
 
-
-.about-text{
+.about-text {
   flex: 1;
   display: flex;
   align-items: center;
   text-align: justify;
   padding-left: 20px;
   padding-right: 20px;
-  
-  
 }
 
-.left-container{
+.left-container {
   width: 550px;
- /* background-color: aqua; */
+  /* background-color: #494d5f; */
   display: flex;
   flex-direction: column;
   border-radius: 25px;
   border: 2px solid white;
-
-  
 }
 
-.right-container{
+.right-container {
   width: 550px;
   /* background-color: aqua; */
   display: flex;
@@ -184,8 +170,8 @@ nav ul li a:hover::after {
   border: 2px solid white;
 }
 
-.skills-{
- font-size: 40px;
+.skills- {
+  font-size: 40px;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -193,7 +179,6 @@ nav ul li a:hover::after {
 }
 
 .card {
-  
   background: #111827;
   padding: 25px 15px;
   border-radius: 18px;
@@ -216,16 +201,16 @@ nav ul li a:hover::after {
   color: #d1d5db;
 }
 
-.tab-contents ul li{
+.tab-contents ul li {
   list-style: none;
   margin: 10px 0;
 }
-.tab-contents ul li span{
+.tab-contents ul li span {
   color: #ff004f;
   font-size: 14px;
 }
 
-.skill-tab{
+.skill-tab {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 20px;
@@ -233,6 +218,51 @@ nav ul li a:hover::after {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 50px;
-  
+}
+/* ---------------projectpage --------------- */
 
+#project-page {
+  margin-top: 70px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#my-project {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.project-parent {
+  height: 555px;
+  width: 80%;
+  background-color: #56A2C2;
+  border: 5px solid rgb(169, 41, 192);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.project-1 {
+  height: 450px;
+  width: 80%;
+  background-image: url(Screenshot-project.png);
+  background-size:cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#heding {
+  padding-top: 20px;
 }
