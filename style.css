@@ -239,7 +239,7 @@ nav ul li a:hover::after {
 
 .project-parent {
   height: 555px;
-  width: 80%;
+  width: 70%;
   background-color: #56A2C2;
   border: 5px solid rgb(169, 41, 192);
   display: flex;
@@ -252,7 +252,7 @@ nav ul li a:hover::after {
 
 .project-1 {
   height: 450px;
-  width: 80%;
+  width: 70%;
   background-image: url(Screenshot-project.png);
   background-size:cover;
   display: flex;
@@ -261,8 +261,28 @@ nav ul li a:hover::after {
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
+  cursor: pointer;
+  border: 5px solid yellow;
+
 }
 
-#heding {
+.project-2 {
+  height: 450px;
+  width: 70%;
+  background-image: url(mini-project-2.png);
+  background-size:cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 5px solid yellow;
+
+}
+
+
+#heading {
   padding-top: 20px;
 }
