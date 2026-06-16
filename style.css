@@ -240,7 +240,7 @@ nav ul li a:hover::after {
 .project-parent {
   height: 555px;
   width: 70%;
-  background-color: #56A2C2;
+  background-color: #56a2c2;
   border: 5px solid rgb(169, 41, 192);
   display: flex;
   flex-wrap: wrap;
@@ -254,7 +254,7 @@ nav ul li a:hover::after {
   height: 450px;
   width: 70%;
   background-image: url(Screenshot-project.png);
-  background-size:cover;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -263,14 +263,13 @@ nav ul li a:hover::after {
   border-radius: 10px;
   cursor: pointer;
   border: 5px solid yellow;
-
 }
 
 .project-2 {
   height: 450px;
   width: 70%;
   background-image: url(Screenshot-3.png);
-  background-size:cover;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -279,9 +278,7 @@ nav ul li a:hover::after {
   border-radius: 10px;
   cursor: pointer;
   border: 5px solid yellow;
-
 }
-
 
 #heading {
   padding-top: 20px;
