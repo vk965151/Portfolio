@@ -285,4 +285,6 @@ nav ul li a:hover::after {
 
 #heading {
   padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
