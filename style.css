@@ -269,7 +269,7 @@ nav ul li a:hover::after {
 .project-2 {
   height: 450px;
   width: 70%;
-  background-image: url(mini-project-2.png);
+  background-image: url(Screenshot-3.png);
   background-size:cover;
   display: flex;
   flex-wrap: wrap;
