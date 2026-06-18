@@ -3,8 +3,8 @@ project1.addEventListener("click", () => {
      window.open("https://amazone-project-lemon.vercel.app/", "_blank");
 });
 
-const project2 = document.querySelector(".project-2");
-project2.addEventListener("click", () => {
+const project3 = document.querySelector(".project-3");
+project3.addEventListener("click", () => {
      window.open("https://rock-game-vishal.vercel.app/", "_blank");
 });
 

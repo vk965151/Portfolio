@@ -121,7 +121,7 @@ nav ul li a:hover::after {
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
 }
 
-.right-image:hover{
+.right-image:hover {
   background-image: url(vishal-image.jpg);
 }
 
@@ -248,7 +248,13 @@ nav ul li a:hover::after {
 .project-parent-1 {
   height: 555px;
   width: 70%;
-  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 30%, #064e3b 70%, #022c22 100%);
+  background: linear-gradient(
+    135deg,
+    #0f172a 0%,
+    #1e1b4b 30%,
+    #064e3b 70%,
+    #022c22 100%
+  );
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -335,3 +341,53 @@ nav ul li a:hover::after {
   display: flex;
   flex-wrap: wrap;
 }
+/* ------------------------------------------contact form------------------------------------- */
+#contact-form {
+  margin-top: 70px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 70%;
+  height: 55px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+textarea {
+  width: 70%;
+  height: 200px;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+}
+
+#submit-data {
+  background-color: transparent;
+  width: 180px;
+  height: 55px;
+  border-radius: 20px;
+  color: #ffffff;
+  border: 2px solid #ff004f;
+  font-size: large;
+}
+#submit-data:hover{
+ background: #ff004f;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); 
+}
+
+#para {
+  padding-bottom: 30px;
+}
+
+#contact-me {
+  font-family: JetBrains Mono;
+  font-size: 60px;
+}
+
