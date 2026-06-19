@@ -4,6 +4,9 @@
   box-sizing: border-box;
   /* border: 1px solid red; */
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgb(0, 0, 33);
   color: white;
@@ -11,7 +14,6 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: white;
   overflow-x: hidden;
   width: 100%;
 }
@@ -34,7 +36,8 @@ body {
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
 }
 
-#github-btn a {
+#github-btn a,
+#resume-btn a {
   color: white;
   text-decoration: none;
 }
@@ -50,14 +53,15 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 40px;
-  background-color: rgb(15, 15, 39);
+  background-color: rgb(0, 0, 25);
 }
 nav ul {
   display: flex;
   list-style: none;
 }
 nav ul li a {
-  margin: 0 23px;
+  margin: 0 19px;
+  justify-content: space-evenly;
   cursor: pointer;
   text-decoration: none;
   color: white;
@@ -81,7 +85,6 @@ nav ul li a:hover::after {
 .left {
   font-size: 1.3rem;
   font-weight: 600;
-  margin-right: 80px;
 }
 
 .design {
@@ -228,7 +231,7 @@ nav ul li a:hover::after {
 }
 /* ---------------projectpage --------------- */
 
-#project-page {
+.project-page {
   margin-top: 70px;
   /* height: 100vh; */
   display: flex;
@@ -356,7 +359,7 @@ input {
   height: 55px;
   border-radius: 8px;
   padding: 12px 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: large;
 }
 textarea {
@@ -364,7 +367,7 @@ textarea {
   height: 200px;
   border-radius: 8px;
   padding: 12px 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: large;
 }
 
@@ -377,9 +380,9 @@ textarea {
   border: 2px solid #ff004f;
   font-size: large;
 }
-#submit-data:hover{
- background: #ff004f;
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); 
+#submit-data:hover {
+  background: #ff004f;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
 }
 
 #para {
@@ -391,3 +394,113 @@ textarea {
   font-size: 60px;
 }
 
+.footer-data {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #0e1117;
+  color: #ffffff;
+}
+.logo-data {
+  margin-right: 20px;
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-1,
+.logo-2 {
+  cursor: pointer;
+}
+
+.footer-data .logo-data i {
+  font-size: 30px;
+}
+
+/* -------------------------------------- Mobile responsive style ------------------------------------------- */
+@media (max-width: 768px) {
+  nav {
+    background-color: black;
+  }
+  .right {
+    padding-top: 20px;
+  }
+
+  .right-image {
+    height: 250px;
+    width: 250px;
+  }
+  .design {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .left-intro {
+    font-size: 1.5rem;
+    padding-bottom: 200px;
+    padding-left: 50px;
+  }
+  .about {
+    margin: 30px;
+    height: 120vh;
+    gap: 80px;
+  }
+  .left-container {
+    font-size: small;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+  .card i {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  .card p {
+    font-size: 10px;
+    color: #d1d5db;
+  }
+
+  .skill-tab {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .project-parent-1,
+  .project-parent-2,
+  .project-parent-3 {
+    height: 300px;
+    width: 85%;
+    justify-content: space-around;
+  }
+
+  .project-1,
+  .project-2,
+  .project-3 {
+    height: 170px;
+  }
+
+  #my-project {
+    padding-bottom: 40px;
+  }
+
+  #some-text {
+    font-size: x-small;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+  }
+  .footer-data {
+    flex-direction: column;
+  }
+
+  #contact-form {
+    height: 740px;
+  }
+}

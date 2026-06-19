@@ -14,15 +14,15 @@
     </style>
   </head>
   <body>
-    <header>
+    <header id="header-1">
       <nav>
         <div class="left">Port<span class="portfolio">folio</span></div>
         <div class="right">
           <ul>
-            <li><a href="#home">Home</a></li>
+            <li><a href="#header-1">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#my-projects">Projects</a></li>
+            <li><a href="#contact-form">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -40,7 +40,8 @@
               <a href="https://github.com/vk965151" target="main">GitHub</a>
             </button>
             <button id="resume-btn">
-              <i class="fa-solid fa-file"></i> Resume
+              <i class="fa-solid fa-file"></i>
+              <a href="vishalresume.pdf" download="Vishal_Kashyap_Resume.pdf"> Resume </a>
             </button>
           </div>
         </div>
@@ -58,7 +59,7 @@
 
       <!-- ------------------------about------------------------ -->
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="left-container">
           <div class="text">
             <h1 class="about-intro">About Me</h1>
@@ -138,7 +139,7 @@
       </section>
 
       <!-- ----------------------------------Projects 1---------------------------------- -->
-      <section id="project-page">
+      <section class="project-page" id="my-projects">
         <h1 id="my-project">My Projects</h1>
         <div class="project-parent-1">
           <h3 id="heading">Amazon Clone</h3>
@@ -150,7 +151,7 @@
       </section>
       <!-- ----------------------------------------project2---------------------------------- -->
 
-      <section id="project-page">
+      <section class="project-page">
         <div class="project-parent-2">
           <h3 id="heading">My Portfolio</h3>
           <i id="some-text"
@@ -162,7 +163,7 @@
 
       <!-- -----------------------------------------project3---------------------------------------- -->
 
-      <section id="project-page">
+      <section class="project-page">
         <div class="project-parent-3">
           <h3 id="heading">Rock Paper Scissors</h3>
           <i id="some-text"
@@ -183,9 +184,17 @@
         <textarea placeholder="Your Message"></textarea>
         <button id="submit-data">Send Message</button>
         </form>
-
-
     </main>
+    <hr>
+    <footer class="footer-data">
+      <div class="text-footer">
+        <p>@ 2026 Vishal Kashyap. All rights reserved.</p>
+      </div>
+      <div class="logo-data">
+        <div class="logo-1"><i class="fa-brands fa-github"></i></div>
+        <div class="logo-2"><i class="fa-brands fa-linkedin"></i></div>
+      </div>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
