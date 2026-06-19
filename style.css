@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  zoom: 0.9;
 }
 body {
   background-color: rgb(0, 0, 33);
@@ -347,7 +348,7 @@ nav ul li a:hover::after {
 /* ------------------------------------------contact form------------------------------------- */
 #contact-form {
   margin-top: 70px;
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   flex-direction: column;
