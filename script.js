@@ -18,5 +18,3 @@ linkdin2.addEventListener("click", () => {
      window.open("https://www.linkedin.com/in/vishal-kashyap-9812b2348/", "_blank");
 });
 
-
-

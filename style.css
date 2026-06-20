@@ -6,7 +6,6 @@
 }
 html {
   scroll-behavior: smooth;
-  /* zoom: 0.9; */
 }
 body {
   background-color: rgb(0, 0, 33);
@@ -51,23 +50,46 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  height: 40px;
-  background-color: rgb(0, 0, 25);
+  height: 60px;
+  padding: 0 13%;
 }
+
+.left {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  width: 120px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.right {
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
 nav ul {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
 nav ul li a {
-  margin: 0 19px;
-  justify-content: space-evenly;
+  margin: 0 15px;
   cursor: pointer;
   text-decoration: none;
   color: white;
   position: relative;
 }
+
 nav ul li a::after {
   content: "";
   position: absolute;
@@ -83,21 +105,16 @@ nav ul li a:hover::after {
   width: 100%;
 }
 
-.left {
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
 .design {
   display: flex;
   justify-content: space-around;
-  margin: 23px;
+  margin: 19px;
   height: 100vh;
 }
 
 .purple {
   color: rgb(152, 16, 231);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .portfolio {
@@ -107,20 +124,20 @@ nav ul li a:hover::after {
 .left-intro {
   padding-top: 60px;
   height: auto;
-  width: 370px;
-  margin-top: 90px;
+  width: 360px;
+  margin-top: 95px;
   justify-content: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 
 .right-image {
   background-image: url("vishal.jpg");
   background-size: cover;
-  height: 400px;
-  width: 400px;
+  height: 370px;
+  width: 370px;
   border-radius: 50%;
-  margin-top: 80px;
+  margin-top: 70px;
   border: rgb(247, 243, 243) solid 3px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.9);
 }
@@ -147,7 +164,7 @@ nav ul li a:hover::after {
 }
 
 .about-intro {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -155,6 +172,7 @@ nav ul li a:hover::after {
 }
 
 .about-text {
+  font-size: 14.3px;
   flex: 1;
   display: flex;
   align-items: center;
@@ -164,25 +182,25 @@ nav ul li a:hover::after {
 }
 
 .left-container {
-  width: 550px;
+  width: 490px;
   background: black;
   display: flex;
   flex-direction: column;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
 }
 
 .right-container {
-  width: 550px;
+  width: 490px;
   background-color: black;
   display: flex;
   flex-direction: column;
-  border-radius: 25px;
+  border-radius: 20px;
   box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
 }
 
 .skills- {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
   color: #fff;
   text-align: center;
@@ -203,7 +221,7 @@ nav ul li a:hover::after {
 }
 
 .card i {
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 12px;
 }
 
@@ -233,7 +251,7 @@ nav ul li a:hover::after {
 /* ---------------projectpage --------------- */
 
 .project-page {
-  margin-top: 70px;
+  margin-top: 65px;
   /* height: 100vh; */
   display: flex;
   flex-wrap: wrap;
@@ -245,12 +263,12 @@ nav ul li a:hover::after {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 600;
 }
 
 .project-parent-1 {
-  height: 555px;
+  height: 500px;
   width: 70%;
   background: linear-gradient(
     135deg,
@@ -268,7 +286,7 @@ nav ul li a:hover::after {
 }
 
 .project-parent-2 {
-  height: 555px;
+  height: 500px;
   width: 70%;
   background: linear-gradient(to bottom, #bc5a45 0%, #1a1216 100%);
   display: flex;
@@ -280,7 +298,7 @@ nav ul li a:hover::after {
 }
 
 .project-parent-3 {
-  height: 555px;
+  height: 500px;
   width: 70%;
   background: radial-gradient(circle at top left, #2e1065 0%, #0f172a 100%);
   display: flex;
@@ -292,7 +310,7 @@ nav ul li a:hover::after {
 }
 
 .project-1 {
-  height: 450px;
+  height: 390px;
   width: 70%;
   background-image: url(Screenshot-project.png);
   background-size: cover;
@@ -309,7 +327,7 @@ nav ul li a:hover::after {
 }
 
 .project-2 {
-  height: 450px;
+  height: 390px;
   width: 70%;
   background-image: url(project-3.png);
   background-size: cover;
@@ -325,7 +343,7 @@ nav ul li a:hover::after {
 }
 
 .project-3 {
-  height: 450px;
+  height: 390px;
   width: 70%;
   background-image: url(Screenshot-3.png);
   background-size: cover;
@@ -344,20 +362,25 @@ nav ul li a:hover::after {
   padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
+  font-size: 17px;
+}
+
+#some-text {
+  font-size: small;
 }
 /* ------------------------------------------contact form------------------------------------- */
 #contact-form {
-  margin-top: 70px;
-  height: 120vh;
+  margin-top: 60px;
+  height: 110vh;
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 18px;
 }
 
 input {
   width: 70%;
-  height: 55px;
+  height: 50px;
   border-radius: 8px;
   padding: 12px 20px;
   font-family: "Courier New", Courier, monospace;
@@ -365,7 +388,7 @@ input {
 }
 textarea {
   width: 70%;
-  height: 200px;
+  height: 175px;
   border-radius: 8px;
   padding: 12px 20px;
   font-family: "Courier New", Courier, monospace;
@@ -374,12 +397,12 @@ textarea {
 
 #submit-data {
   background-color: transparent;
-  width: 180px;
-  height: 55px;
+  width: 160px;
+  height: 50px;
   border-radius: 20px;
   color: #ffffff;
-  border: 2px solid #ff004f;
-  font-size: large;
+  border: 1.5px solid #ff004f;
+  font-size: 15px;
 }
 #submit-data:hover {
   background: #ff004f;
@@ -388,15 +411,16 @@ textarea {
 
 #para {
   padding-bottom: 30px;
+  font-size: 14px;
 }
 
 #contact-me {
   font-family: JetBrains Mono;
-  font-size: 60px;
+  font-size: 52px;
 }
 
 .footer-data {
-  height: 60px;
+  height: 45px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -419,13 +443,20 @@ textarea {
   font-size: 30px;
 }
 
+.text-footer {
+  font-size: small;
+}
 /* -------------------------------------- Mobile responsive style ------------------------------------------- */
 @media (max-width: 768px) {
-  nav {
-    background-color: black;
+  #header-1 {
+    padding-top: 8px;
   }
   .right {
-    padding-top: 20px;
+    height: 40px;
+    border: 1px solid #ff004f;
+  }
+  .left {
+    display: none;
   }
 
   .right-image {
@@ -445,7 +476,7 @@ textarea {
   }
   .about {
     margin: 30px;
-    height: 120vh;
+    height: 130vh;
     gap: 80px;
   }
   .left-container {
@@ -492,16 +523,32 @@ textarea {
   }
 
   #some-text {
-    font-size: x-small;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
-  }
-  .footer-data {
-    flex-direction: column;
+    font-size: 10px;
   }
 
   #contact-form {
     height: 740px;
+  }
+
+  .footer-data {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    height: auto;
+    padding: 8px;
+  }
+
+  .text-footer {
+    text-align: center;
+    font-size: 0.85rem;
+  }
+
+  .logo-data {
+    justify-content: center;
+    gap: 20px;
   }
 }
